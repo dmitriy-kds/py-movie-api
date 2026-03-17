@@ -4,7 +4,6 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework.request import Request
 
-
 from cinema.models import Movie
 from cinema.serializers import MovieSerializer
 
